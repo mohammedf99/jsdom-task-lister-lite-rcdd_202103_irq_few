@@ -1,3 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const 
+  const form = document.querySelector('#create-task-form');
+  const input = document.querySelector('');
 });
