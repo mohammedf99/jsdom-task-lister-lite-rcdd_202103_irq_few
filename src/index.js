@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const tasks = document.querySelector('#tasks');
   
   form.addEventListener('submit', function(){
+    document.preventDefault();
     const li = document.createElement('li');
     li.innerText = input.value;
     tasks.append(li);
